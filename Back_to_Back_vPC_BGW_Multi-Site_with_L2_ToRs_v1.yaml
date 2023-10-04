@@ -1116,7 +1116,7 @@ nodes:
       ssh_pwauth: True
       ssh_authorized_keys:
          - your-ssh-pubkey-line-goes-here
-      write_files:a
+      write_files:
         - path: /etc/netplan/50-cloud-init.yaml
           append: false
           content: |
@@ -1279,7 +1279,7 @@ nodes:
       ssh_pwauth: True
       ssh_authorized_keys:
          - your-ssh-pubkey-line-goes-here
-      write_files:a
+      write_files:
         - path: /etc/netplan/50-cloud-init.yaml
           append: false
           content: |
