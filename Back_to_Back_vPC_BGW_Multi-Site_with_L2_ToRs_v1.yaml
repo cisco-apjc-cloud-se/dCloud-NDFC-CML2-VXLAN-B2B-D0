@@ -4,8 +4,8 @@ nodes:
     configuration: |2-
 
       !Command: show running-config
-      !Running configuration last done at: Tue Oct  3 23:39:24 2023
-      !Time: Tue Oct  3 23:39:25 2023
+      !Running configuration last done at: Wed Oct  4 00:29:24 2023
+      !Time: Wed Oct  4 00:29:25 2023
 
       version 10.4(1) Bios:version
       hostname OOB-MGMT
@@ -36,7 +36,7 @@ nodes:
       rmon event 5 log trap public description INFORMATION(5) owner PMON@INFO
 
       ip route 0.0.0.0/0 198.18.128.1
-      vlan 1,101
+      vlan 1,101-102
 
       service dhcp
       ip dhcp relay
